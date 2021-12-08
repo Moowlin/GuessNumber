@@ -9,11 +9,11 @@
 from random import randint
 from math import log, ceil
 
-answersYES = ['y', 'д', 'yes', 'да']
-answersNO = ['n', 'н', 'no', 'нет']
-answersGreater = ['g', 'б', "больше", 'greater']
-answersLess = ['l', 'м', 'меньше', 'less']
-answersExit = ['x', 'exit', 'х']
+answersYES = ['y', 'yes']
+answersNO = ['n', 'no']
+answersGreater = ['>']
+answersLess = ['<']
+answersExit = ['x', 'exit']
 # ======================================= def NumRangeValidation =======================================================
 def NumRangeValidation():
     '''Определяем диапазон чисел, проверяем корректность ввода числа пользователем'''
@@ -71,7 +71,7 @@ def guess1():
 # ================================================= def CHOICE =========================================================
 def choice():
     '''Выбор параметра запуска игры'''
-    answers = ['2', 'x', 'exit', 'х', '1']
+    answers = ['2', 'x', 'exit', '1']
     answer = ""
     while answer not in answers:
         print("В игре есть два режима:",
@@ -87,10 +87,11 @@ answer = choice()           # Выбор параметра запуска иг�
 while (answer not in answersYES) and (answer not in answersNO) and (answer not in answersExit):
     if answer == '1':       # если параметр 1 - запускам guess1
         guess1()
-#    elif answer == '2':     # если параметр 2 - запускаем guess2
+    elif answer == '2':     # если параметр 2 - запускаем guess2
+        print("режим №2 еще не реализован =)")
 #        guess2()
 
-    answer = input("Хотите сыграть еще раз? Д/Y или Н/N ").strip().lower()
+    answer = input("Хотите сыграть еще раз? y/n ").strip().lower()
     if answer in answersYES:
         answer = choice()
     elif answer in answersNO:
