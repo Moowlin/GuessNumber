@@ -84,7 +84,7 @@ def choice():
 print("Добро пожаловать в числовую угадайку!")
 answer = choice()           # Выбор параметра запуска игры
 
-while (answer not in answersYES) and (answer not in answersNO) and (answer not in answersExit):
+while answer not in (answersYES + answersNO + answersExit):
     if answer == '1':       # если параметр 1 - запускам guess1
         guess1()
     elif answer == '2':     # если параметр 2 - запускаем guess2
@@ -96,5 +96,6 @@ while (answer not in answersYES) and (answer not in answersNO) and (answer not i
         answer = choice()
     elif answer in answersNO:
         print("Спасибо, что играли в числовую угадайку!")
+
     else:
         print("Непонятный ответ")
