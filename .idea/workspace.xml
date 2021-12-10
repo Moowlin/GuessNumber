@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc1cd4fd-7565-4921-9119-87ebb7c099a7" name="Default Changelist" comment="Исправлено условие выбора режима игры">
+    <list default="true" id="fc1cd4fd-7565-4921-9119-87ebb7c099a7" name="Default Changelist" comment="задано максимальное значение границы диапазона загадываемого числа">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GuessNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/GuessNumber.py" afterDir="false" />
     </list>
@@ -82,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639060417441</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="задано максимальное значение границы диапазона загадываемого числа">
+      <created>1639126058866</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639126058866</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Исправлены допустимые ответы пользователя&#10;answersYES = ['y', 'yes']&#10;answersNO = ['n', 'no']&#10;answersGreater = ['&gt;']&#10;answersLess = ['&lt;']&#10;answersExit = ['x', 'exit']" />
     <MESSAGE value="Исправлено условие выбора режима игры" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправлено условие выбора режима игры" />
+    <MESSAGE value="задано максимальное значение границы диапазона загадываемого числа" />
+    <option name="LAST_COMMIT_MESSAGE" value="задано максимальное значение границы диапазона загадываемого числа" />
   </component>
 </project>
