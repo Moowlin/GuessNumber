@@ -20,10 +20,10 @@ def NumRangeValidation():
 
     while True:
         try:
-            NumRange = int(input('Определяем границы диапазона, укажите целое число '))
+            NumRange = int(input('Определяем границы диапазона, укажите целое число до 1000000 '))
             if NumRange <= 0:
                 print('Введите целое положительное число')
-            if NumRange > 0:
+            if NumRange in range(1, 1000001):
                 return NumRange
                 break
         except ValueError:
