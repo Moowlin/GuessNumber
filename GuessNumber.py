@@ -54,12 +54,6 @@ def guess1():
                 continue
             if Num == NumControl:
                 print(f'Поздравляем! Вы угадали за {count} попыток')
-                if count == ceil(log(NumRange, 2)):
-                    print("Хороший результат")
-                elif count < ceil(log(NumRange, 2)):
-                    print("Отличный результат")
-                elif count > ceil(log(NumRange, 2)):
-                    print("Можно улучшить результат. Попробуйте еще раз.")
                 break
 
             if Num not in range(1, NumRange + 1):
@@ -99,8 +93,6 @@ def guess2():
         if answer in answersYES:
             print('УРА')
             print(f'Я угадал за {count} попыток')
-            if count == ceil(log(NumRange, 2)): print("Хороший результат")
-            elif count < ceil(log(NumRange, 2)): print("Отличный результат")
         else:
             while (answer not in answersGreater) and (answer not in answersLess):
                 answer = input('Ваше число больше (>) или меньше (<)? ')
