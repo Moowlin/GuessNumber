@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc1cd4fd-7565-4921-9119-87ebb7c099a7" name="Default Changelist" comment="добавлен режим игры №2">
+    <list default="true" id="fc1cd4fd-7565-4921-9119-87ebb7c099a7" name="Default Changelist" comment="Убрано вычисление О-большого">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GuessNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/GuessNumber.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639128453735</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Убрано вычисление О-большого">
+      <created>1639402328992</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1639402328992</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +124,7 @@
     <MESSAGE value="Исправлено условие выбора режима игры" />
     <MESSAGE value="задано максимальное значение границы диапазона загадываемого числа" />
     <MESSAGE value="добавлен режим игры №2" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлен режим игры №2" />
+    <MESSAGE value="Убрано вычисление О-большого" />
+    <option name="LAST_COMMIT_MESSAGE" value="Убрано вычисление О-большого" />
   </component>
 </project>

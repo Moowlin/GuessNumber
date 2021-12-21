@@ -88,7 +88,7 @@ def guess2():
         print(f'мой ответ {NumbersRange[mid]}')
 
         while (answer not in answersNO) and (answer not in answersYES):
-            answer = input('Угадал? (yes/no) ')
+            answer = input('Угадал? (yes/no) ').strip().lower()
 
         if answer in answersYES:
             print('УРА')
