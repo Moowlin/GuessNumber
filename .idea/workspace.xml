@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc1cd4fd-7565-4921-9119-87ebb7c099a7" name="Default Changelist" comment="Исправление по баг-репорту 2021_12_21_GGN-9.Запрос о повторе игры_ошибка при вводе 1" />
+    <list default="true" id="fc1cd4fd-7565-4921-9119-87ebb7c099a7" name="Default Changelist" comment="Исправление по баг-репорту 2021_12_21_GGN-9.Запрос о повторе игры_ошибка при вводе 1&#10;&#10;2021_12_21_GGN-12.Запрос о повторе игры_ошибка при вводе 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640097047686</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Исправление по баг-репорту 2021_12_21_GGN-9.Запрос о повторе игры_ошибка при вводе 1&#10;&#10;2021_12_21_GGN-12.Запрос о повторе игры_ошибка при вводе 1">
+      <created>1640161670183</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1640161670183</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +144,7 @@
     <MESSAGE value="Убрано вычисление О-большого" />
     <MESSAGE value="Исправление по баг-репорту 2021_12_21_GGN-9. Запрос о повторе игры_ошибка при вводе 1" />
     <MESSAGE value="Исправление по баг-репорту 2021_12_21_GGN-9.Запрос о повторе игры_ошибка при вводе 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправление по баг-репорту 2021_12_21_GGN-9.Запрос о повторе игры_ошибка при вводе 1" />
+    <MESSAGE value="Исправление по баг-репорту 2021_12_21_GGN-9.Запрос о повторе игры_ошибка при вводе 1&#10;&#10;2021_12_21_GGN-12.Запрос о повторе игры_ошибка при вводе 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправление по баг-репорту 2021_12_21_GGN-9.Запрос о повторе игры_ошибка при вводе 1&#10;&#10;2021_12_21_GGN-12.Запрос о повторе игры_ошибка при вводе 1" />
   </component>
 </project>

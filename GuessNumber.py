@@ -87,14 +87,14 @@ def guess2():
         count += 1
         print(f'мой ответ {NumbersRange[mid]}')
 
-        while (answer not in answersNO) and (answer not in answersYES):
+        while answer not in (answersNO + answersYES):
             answer = input('Угадал? (yes/no) ').strip().lower()
 
         if answer in answersYES:
             print('УРА')
             print(f'Я угадал за {count} попыток')
         else:
-            while (answer not in answersGreater) and (answer not in answersLess):
+            while answer not in (answersGreater + answersLess):
                 answer = input('Ваше число больше (>) или меньше (<)? ')
 
         if answer in answersGreater:
