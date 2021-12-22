@@ -118,6 +118,7 @@ def choice():
               "Укажите желаемый режим или eXit для выхода", sep="\n")
         answer = input().lower().strip()
     return answer
+
 # ===================================================== MAIN ===========================================================
 print("Добро пожаловать в числовую угадайку!")
 answer = choice()           # Выбор параметра запуска игры
@@ -136,3 +137,4 @@ while answer not in (answersYES + answersNO + answersExit):
 
     else:
         print("Непонятный ответ")
+        answer = ''

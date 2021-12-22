@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc1cd4fd-7565-4921-9119-87ebb7c099a7" name="Default Changelist" comment="Исправление по баг-репорту 2021_12_21_GGN-9.Запрос о повторе игры_ошибка при вводе 1">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fc1cd4fd-7565-4921-9119-87ebb7c099a7" name="Default Changelist" comment="Исправление по баг-репорту 2021_12_21_GGN-9.Запрос о повторе игры_ошибка при вводе 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640095982306</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Исправление по баг-репорту 2021_12_21_GGN-9.Запрос о повторе игры_ошибка при вводе 1">
+      <created>1640097047686</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640097047686</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +136,7 @@
     <MESSAGE value="добавлен режим игры №2" />
     <MESSAGE value="Убрано вычисление О-большого" />
     <MESSAGE value="Исправление по баг-репорту 2021_12_21_GGN-9. Запрос о повторе игры_ошибка при вводе 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправление по баг-репорту 2021_12_21_GGN-9. Запрос о повторе игры_ошибка при вводе 1" />
+    <MESSAGE value="Исправление по баг-репорту 2021_12_21_GGN-9.Запрос о повторе игры_ошибка при вводе 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправление по баг-репорту 2021_12_21_GGN-9.Запрос о повторе игры_ошибка при вводе 1" />
   </component>
 </project>
