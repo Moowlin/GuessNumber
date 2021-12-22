@@ -46,10 +46,10 @@ def guess1():
             Num = 0
             Num = int(input(f'Укажите целое положительное чсило в диапазоне [1; {NumRange}] '))
             # Сверяем введенное число с контрольным
-            if Num > NumControl:
+            if Num in range(1, NumRange+1) and Num > NumControl:
                 print('Ваше число больше загаданного, попробуйте еще разок')
                 continue
-            if Num < NumControl:
+            if Num in range(1, NumRange+1) and Num < NumControl:
                 print('Ваше число меньше загаданного, попробуйте еще разок')
                 continue
             if Num == NumControl:
