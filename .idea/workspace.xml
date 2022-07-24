@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc1cd4fd-7565-4921-9119-87ebb7c099a7" name="Default Changelist" comment="Оптимизировано условие в строках 90 и 97">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GuessNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/GuessNumber.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="21x1NyyeIuMQGnWS1hFVeinPmgC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="GuessNumber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="project GuessNumber" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GuessNumber.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.GuessNumber" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc1cd4fd-7565-4921-9119-87ebb7c099a7" name="Default Changelist" comment="" />
+      <created>1638867888506</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638867888506</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Исправлены допустимые ответы пользователя&#10;answersYES = ['y', 'yes']&#10;answersNO = ['n', 'no']&#10;answersGreater = ['&gt;']&#10;answersLess = ['&lt;']&#10;answersExit = ['x', 'exit']">
+      <created>1638972218656</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638972218656</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Исправлено условие выбора режима игры">
+      <created>1639060417441</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639060417441</updated>
+    </task>
+    <task id="LOCAL-00003" summary="задано максимальное значение границы диапазона загадываемого числа">
+      <created>1639126058866</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639126058866</updated>
+    </task>
+    <task id="LOCAL-00004" summary="добавлен режим игры №2">
+      <created>1639128453735</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639128453735</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Убрано вычисление О-большого">
+      <created>1639402328992</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1639402328992</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Исправление по баг-репорту 2021_12_21_GGN-9. Запрос о повторе игры_ошибка при вводе 1">
+      <created>1640095982306</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640095982306</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Исправление по баг-репорту 2021_12_21_GGN-9.Запрос о повторе игры_ошибка при вводе 1">
+      <created>1640097047686</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640097047686</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Исправление по баг-репорту 2021_12_21_GGN-9.Запрос о повторе игры_ошибка при вводе 1&#10;&#10;2021_12_21_GGN-12.Запрос о повторе игры_ошибка при вводе 1">
+      <created>1640161670183</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1640161670183</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Оптимизировано условие в строках 90 и 97">
+      <created>1640161974163</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1640161974163</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Исправлены допустимые ответы пользователя&#10;answersYES = ['y', 'yes']&#10;answersNO = ['n', 'no']&#10;answersGreater = ['&gt;']&#10;answersLess = ['&lt;']&#10;answersExit = ['x', 'exit']" />
+    <MESSAGE value="Исправлено условие выбора режима игры" />
+    <MESSAGE value="задано максимальное значение границы диапазона загадываемого числа" />
+    <MESSAGE value="добавлен режим игры №2" />
+    <MESSAGE value="Убрано вычисление О-большого" />
+    <MESSAGE value="Исправление по баг-репорту 2021_12_21_GGN-9. Запрос о повторе игры_ошибка при вводе 1" />
+    <MESSAGE value="Исправление по баг-репорту 2021_12_21_GGN-9.Запрос о повторе игры_ошибка при вводе 1" />
+    <MESSAGE value="Исправление по баг-репорту 2021_12_21_GGN-9.Запрос о повторе игры_ошибка при вводе 1&#10;&#10;2021_12_21_GGN-12.Запрос о повторе игры_ошибка при вводе 1" />
+    <MESSAGE value="Оптимизировано условие в строках 90 и 97" />
+    <option name="LAST_COMMIT_MESSAGE" value="Оптимизировано условие в строках 90 и 97" />
+  </component>
+</project>
